@@ -206,7 +206,6 @@ export default class VoiceToTextPrefs extends ExtensionPreferences {
 
         // Add threshold row to recording group
         recordingGroup.add(createThresholdRow(settings, _syncAllToConfig));
-
         // Configuration Group
         const configGroup = new Adw.PreferencesGroup({
             title: _('Configuration'),
